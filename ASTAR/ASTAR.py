@@ -58,7 +58,7 @@ def astar(maze, start, end):
 
     # Loop until you find the end
     while len(open_list) > 0:
-        pygame.time.delay(200)
+        pygame.time.delay(100)
         #Get the current node
         current_node = open_list[0]
         current_index = 0
